@@ -9,6 +9,7 @@ public class dam{
         name = n;
         Fsc = x;
         level = y;
+        int levelInt = Integer.parseInt(level);
     }
     
     public string toString(){
